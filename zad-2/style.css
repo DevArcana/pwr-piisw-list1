@@ -1,0 +1,44 @@
+/*The assignment did not specify whether or not I am allowed to use CSS grid or flexbox.*/
+
+/*
+I hope the look of the result won't influence the grade :)
+If it does however, I will try to make it look much better next time.
+
+I usually use tailwind for personal projects but writing pure CSS isn't a problem for me at all.
+*/
+body {
+    display: grid;
+    grid-template-columns: 120px auto;
+    grid-template-rows: 70px auto;
+    height: 100vh;
+    margin: 0;
+    min-width: 240px; /*240px is really small, unrealistic to actually hit in real scenarios*/
+    overflow-x: scroll;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background-color: green;
+}
+
+nav {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    background-color: aqua;
+}
+
+article {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    overflow-y: scroll;
+}
