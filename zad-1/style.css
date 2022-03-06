@@ -1,0 +1,36 @@
+html {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+article {
+    max-width: 1024px;
+    margin: auto;
+    background-color: white;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+section {
+    margin: 1em 0;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+h3 {
+    font-size: large;
+}
+
+/* 
+Normally I would have used a bit of padding here and there to mke it look nicer but this wasn't in the scope of the assignment.
+As to the point regarding distance between chapters, I assumed setting the margin of section is enough.
+I am aware that the actual distance will be larger due to the heading having its own margin.
+*/
