@@ -1,0 +1,30 @@
+button {
+    -webkit-appearance: none; /*remove Chrome defaults*/
+}
+
+/*Here I use flexbox*/
+
+.container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 160px;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: white;
+    border-color: aqua;
+    border-style: solid;
+    cursor: pointer;
+}
+
+button:hover {
+    color: aqua;
+}
+
+button:focus {
+    outline-style: none;
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.42);
+}
